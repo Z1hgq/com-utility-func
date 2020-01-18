@@ -1,0 +1,19 @@
+{
+  "name": "com-utility-func",
+  "version": "1.0.0",
+  "description": "common utility functions for javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Z1hgq/com-utility-func.git"
+  },
+  "author": "Z1hgq",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Z1hgq/com-utility-func/issues"
+  },
+  "homepage": "https://github.com/Z1hgq/com-utility-func#readme"
+}
