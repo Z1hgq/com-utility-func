@@ -1,0 +1,45 @@
+{
+    "name": "@z1hgq/gqutils",
+    "version": "1.0.1",
+    "description": "common utility functions for javascript",
+    "main": "min/gqutils.min.js",
+    "dependencies": {},
+    "devDependencies": {
+        "babel-eslint": "^7.2.3",
+        "babel-plugin-import": "^1.12.1",
+        "eslint": "^6.7.2",
+        "eslint-config-prettier": "^6.5.0",
+        "eslint-plugin-import": "^2.20.0",
+        "eslint-plugin-prettier": "^3.1.1",
+        "eslint-plugin-react": "^7.16.0",
+        "prettier": "^1.18.2",
+        "prettier-eslint": "^9.0.0",
+        "babel-core": "^6.26.3",
+        "babel-loader": "^7.1.5",
+        "babel-preset-env": "^1.7.0",
+        "chalk": "^2.4.1",
+        "copy": "^0.3.2",
+        "coveralls": "^3.0.2",
+        "mocha": "^5.2.0",
+        "ora": "^3.0.0",
+        "power-assert": "^1.6.0",
+        "rimraf": "^2.6.2",
+        "webpack": "^4.16.1",
+        "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2"
+    },
+    "scripts": {
+        "build": "node script/build.js",
+        "build-pack": "node script/build-pack",
+        "test": ""
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Z1hgq/gqutils.git"
+    },
+    "author": "Z1hgq",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/Z1hgq/gqutils/issues"
+    },
+    "homepage": "https://github.com/Z1hgq/gqutils#readme"
+}

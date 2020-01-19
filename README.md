@@ -1,2 +1,3 @@
-# com-utility-func
+# gqutils
+
 common utility functions for javascript
