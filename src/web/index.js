@@ -10,7 +10,7 @@ const requestAnimFrame = (function () {
         }
     );
 }());
-exports.web = {
+export default {
     /**
      * @desc 获取请求路径中的参数
      * @param {string} name 获取的参数名

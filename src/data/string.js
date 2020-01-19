@@ -1,4 +1,4 @@
-exports.str = {
+export default {
     /**
      * @desc 把parent中的所有str1替换为str2
      * @param {String} parent

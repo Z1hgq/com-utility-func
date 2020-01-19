@@ -3,7 +3,7 @@
  * @param  {Date} startTime
  * @return {String}
  */
-exports.formatPassTime = function (startTime) {
+export default function (startTime) {
     const currentTime = Date.parse(new Date());
     const time = currentTime - startTime;
     const day = parseInt(time / (1000 * 60 * 60 * 24));

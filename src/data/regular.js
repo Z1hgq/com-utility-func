@@ -1,5 +1,5 @@
 /* eslint-disable no-useless-escape */
-exports.reg = {
+export default {
     /**
      *
      * @desc   判断是否为手机号

@@ -1,11 +1,11 @@
-const formatRemainTime = require("./formatRemainTime");
-const isLeapYear = require("./isLeapYear");
-const isSameDay = require("./isSameDay");
-const monthDays = require("./monthDays");
-const timeLeft = require("./timeLeft");
-const formatPassTime = require("./formatPassTime");
+import formatRemainTime from "./formatRemainTime";
+import isLeapYear from "./isLeapYear";
+import isSameDay from "./isSameDay";
+import monthDays from "./monthDays";
+import timeLeft from "./timeLeft";
+import formatPassTime from "./formatPassTime";
 
-exports.time = {
+export default {
     formatPassTime,
     formatRemainTime,
     isLeapYear,

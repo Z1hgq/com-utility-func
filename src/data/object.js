@@ -1,4 +1,4 @@
-exports.obj = {
+export default {
     /**
      * @desc 深拷贝，支持常见类型
      * @param {Any} values

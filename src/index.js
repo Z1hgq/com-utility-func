@@ -1,13 +1,13 @@
-const obj = require("./data/object");
-const reg = require("./data/regular");
-const str = require("./data/string");
-const fun = require("./function");
-const throttle = require("./function/throttle");
-const time = require("./time");
-const web = require("./web");
-const arr = require("./data/array");
+import obj from "./data/object";
+import reg from "./data/regular";
+import str from "./data/string";
+import fun from "./function";
+import throttle from "./function/throttle";
+import time from "./time";
+import web from "./web";
+import arr from "./data/array";
 
-const smutils = {
+export const smutils = {
     /* Array */
     unique: arr.unique,
     arrayEqual: arr.arrayEqual,
@@ -66,4 +66,4 @@ const smutils = {
     wwindowResize: web.windowResize
 };
 
-module.exports = smutils;
+// module.exports = smutils;

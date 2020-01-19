@@ -3,7 +3,7 @@
  * @param {Date} time
  * @return {Number}
  */
-exports.monthDays = function (time) {
+export default function (time) {
     time = new Date(time);
     const year = time.getFullYear();
     const month = time.getMonth() + 1;

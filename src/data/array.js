@@ -1,4 +1,4 @@
-exports.arr = {
+export default {
     /**
      * @desc 数组去重
      * @param {Array} arr

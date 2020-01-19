@@ -14,7 +14,7 @@
  *
  * @return {Function}  新的节流函数
  */
-exports.throttle = function (delay, noTrailing, callback, debounceMode) {
+export default function (delay, noTrailing, callback, debounceMode) {
     // After wrapper has stopped being called, this timeout ensures that
     // `callback` is executed at the proper times in `throttle` and `end`
     // debounce modes.

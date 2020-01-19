@@ -1,5 +1,5 @@
 const throttle = require("./throttle");
-exports.fun = {
+export default {
     /**
  * @desc 函数防抖 
  * 与throttle不同的是，debounce保证一个函数在多少毫秒内不再被触发，只会执行一次，

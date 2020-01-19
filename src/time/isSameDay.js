@@ -4,7 +4,7 @@
  * @param  {Date} date2 可选／默认值：当天
  * @return {Boolean}
  */
-exports.isSameDay = function (date1, date2) {
+export default function (date1, date2) {
     if (!date2) {
         date2 = new Date();
     }
