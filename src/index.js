@@ -7,7 +7,7 @@ import time from "./time";
 import web from "./web";
 import arr from "./data/array";
 
-export const smutils = {
+const smutils = {
     /* Array */
     unique: arr.unique,
     arrayEqual: arr.arrayEqual,
@@ -66,4 +66,4 @@ export const smutils = {
     wwindowResize: web.windowResize
 };
 
-// module.exports = smutils;
+module.exports = smutils;
