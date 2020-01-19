@@ -1,6 +1,6 @@
 {
     "name": "@z1hgq/gqutils",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "common utility functions for javascript",
     "main": "min/gqutils.min.js",
     "dependencies": {},
