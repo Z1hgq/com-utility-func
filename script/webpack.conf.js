@@ -7,9 +7,9 @@ const config = {
     mode: "production",
     entry: path.resolve(rootPath, "src", "index.js"),
     output: {
-        filename: `smutils.min.js`,
+        filename: `gqutils.min.js`,
         path: path.resolve(rootPath, "min"),
-        library: `smutils`,
+        library: `gqutils`,
         libraryTarget: "umd"
     },
     module: {

@@ -1,8 +1,8 @@
 {
-    "name": "@zgq/smutils",
+    "name": "@gq/gqutils",
     "version": "1.0.0",
     "description": "common utility functions for javascript",
-    "main": "min/smutils.min.js",
+    "main": "min/gqutils.min.js",
     "dependencies": {},
     "devDependencies": {
         "babel-eslint": "^7.2.3",
