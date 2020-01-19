@@ -1,2 +1,3 @@
-# com-utility-func
+# smutils
+
 common utility functions for javascript
