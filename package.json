@@ -1,5 +1,5 @@
 {
-    "name": "smutils",
+    "name": "@zgq/smutils",
     "version": "1.0.0",
     "description": "common utility functions for javascript",
     "main": "min/smutils.min.js",
@@ -29,10 +29,8 @@
     },
     "scripts": {
         "build": "node script/build.js",
-        "build-copy": "node script/build-copy.js",
         "build-pack": "node script/build-pack",
-        "test": "",
-        "babel": "babel-node index.js"
+        "test": ""
     },
     "repository": {
         "type": "git",
